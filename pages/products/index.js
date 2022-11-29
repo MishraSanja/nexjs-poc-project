@@ -20,7 +20,7 @@ function ProductList({ products }) {
   
   export async function getStaticProps() {
     console.log('Generating / Regenerating ProductList')
-    const response = await fetch('https://dummyjson.com/products')
+    const response = await fetch('http://jsonplaceholder.typicode.com/users')
     const data = await response.json()
   
     return {
