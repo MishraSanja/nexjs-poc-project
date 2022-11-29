@@ -67,16 +67,15 @@ const UsersPage = (props) => {
                     {props.data.users.map((user) => (
                             <tr>
                                 <td>
-                                    <Link href={`users/${user.id}`} key={user.id}>
-                                      
+                                    {/* <Link href={`users/${user.id}`} key={user.id}>
+                                  
+                                    </Link> */}
                                     <button type="button" class="btn btn-dark  btn-sm">{user.id}</button>   
-                                    </Link>
                                 </td>
                                 <td>  {user.firstName}</td>
                                 <td>  {user.lastName}</td>
                                 <td>  {user.age}</td>
                                 <td>  {user.email}</td>
-
                             </tr>
                         ))}
                 </tbody>
