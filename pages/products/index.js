@@ -33,8 +33,8 @@
   
 
 
-import Footer from '../components/header'
-import Header from '../components/footer'
+import Footer from '../components/footer'
+import Header from '../components/header'
 import Link from 'next/link'
 const UsersPage = (props) => {
     return (
